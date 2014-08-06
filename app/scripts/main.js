@@ -1,5 +1,6 @@
 //Store a function as a variable which will generate a number between one and x
 //x to be specified in future use of the function
+
 var rollDice = function(x) {
   var randomNumber = Math.floor(Math.random() * x + 1);
   $('.face-single').text(randomNumber);
